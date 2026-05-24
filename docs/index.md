@@ -9,6 +9,8 @@ Markdown, Sphinx cross-references, figures, and LaTeX equations.
 
 chapters/getting-started
 chapters/interactive-example
+chapters/01_spaces
+chapters/02_reproducing_kernel_hilbert_spaces
 ```
 
 ## Site Conventions
