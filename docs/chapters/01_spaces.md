@@ -159,9 +159,11 @@ T\left(\sum_{j=1}^n a_j v_j\right)
 
 Linear maps compose: if $T:U\to V$ and $S:V\to W$ are linear, then
 $S\circ T:U\to W$ is linear. Each vector space also has an identity map
-$\mathrm{id}_V:V\to V$. Thus vector spaces and linear maps form a category:
-objects are vector spaces, arrows are linear maps, composition is ordinary
-function composition, and identities are identity maps.
+$\mathrm{id}_V:V\to V$.
+
+> Thus vector spaces and linear maps form a category:
+> objects are vector spaces, arrows are linear maps, composition is ordinary
+> function composition, and identities are identity maps.
 
 (spaces:matrices)=
 ### Matrices as Coordinate Representations
@@ -329,9 +331,11 @@ T = i \circ \widetilde{T} \circ q.
 ```
 
 This factorization says: first kill the kernel, then identify the quotient
-with the image, then embed the image into the target. In categorical language,
-it is the regular epi-mono factorization of a linear map: a surjective quotient
-map, followed by an isomorphism, followed by an injective inclusion.
+with the image, then embed the image into the target.
+
+> In categorical language,
+> it is the regular epi-mono factorization of a linear map: a surjective quotient
+> map, followed by an isomorphism, followed by an injective inclusion.
 
 (spaces:metric-norm)=
 ## Metrics and Norms
@@ -750,8 +754,9 @@ such that
 x^\ast = \lim_{k\to\infty} x_k.
 ```
 
-This is why Hilbert spaces are the natural setting for Fourier expansions,
-orthogonal projections, spectral decompositions, and kernel methods.
+This is why Hilbert spaces are the natural setting for many mathematical constructs,
+such as Fourier expansions, orthogonal projections, spectral decompositions,
+and kernel methods.
 
 (spaces:summary)=
 ## Summary
@@ -776,6 +781,3 @@ After an inner product is added, the geometry-preserving transformations are
 orthogonal rather than arbitrary invertible maps. This finer equivalence keeps
 track of lengths and angles, which is why projections, self-adjoint spectral
 decompositions, and singular values become meaningful.
-
-The next chapter uses this hierarchy to construct reproducing kernel Hilbert
-spaces, where functions are studied through inner products with kernels.
